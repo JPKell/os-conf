@@ -1,0 +1,3 @@
+#!/bin/bash
+# In omarchy audio can go sideways. Restart the audio service to fix it.    
+systemctl --user restart wireplumber.service pipewire.service
